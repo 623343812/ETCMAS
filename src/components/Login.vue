@@ -77,7 +77,6 @@
       background-color: #2b4b6b;
       height: 100%;
   }
-
   .login_box{
       width: 450px;
       height: 300px;
@@ -88,7 +87,6 @@
       top: 50%;
       transform: translate(-50%,-50%);
   }
-
   .avatar_box{
       width: 130px;
       height: 130px;
@@ -107,7 +105,6 @@
       border-radius: 50%;
       background-color: #eee;
   }
-
   .login_form{
       position: absolute;
       bottom: 0;
@@ -120,3 +117,4 @@
       justify-content: flex-end;
   }
 </style>
+  
