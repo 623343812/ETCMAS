@@ -31,7 +31,12 @@ import {
     Cascader,
     Alert,
     Tabs,
-    TabPane
+    TabPane,
+    Steps,
+    Step,
+    Checkbox,
+    CheckboxGroup,
+    Upload
 } from "element-ui"
 
 
@@ -65,6 +70,11 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
 //把弹框组件挂载到vue的原型属性上
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
