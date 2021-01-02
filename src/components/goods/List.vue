@@ -147,7 +147,7 @@ export default {
     },
     //点击该按钮 通过路由跳转到'/goods/add'该界面
     goAddpage(){
-        this.$router.push('/goods/add')
+        this.$router.push('/add')
     }
   },
 };
